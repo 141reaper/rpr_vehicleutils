@@ -2,7 +2,6 @@
 
 This FiveM script allows you to recover or delete a vehicle using its license plate. It was initially created as a temporary fix for a bug in **okokGarage** and **AdvancedParking**. The issue arose when an admin used the "dv" command to delete a vehicle, causing it to neither be stored in the garage nor appear in the impound. As a result, it became impossible to park the vehicle in or out.
 
-- 0.00ms - 0.01ms Resmon
 
 # Installation
 
@@ -36,6 +35,7 @@ This FiveM script allows you to recover or delete a vehicle using its license pl
 
 - Make sure you have the necessary permissions to use the `vehicleutils` command.
 - The script assumes that the `ox_lib` and `oxmysql` libraries are correctly installed and configured.
+- 0.00ms - 0.01ms Resmon
 
 ## Troubleshooting
 
