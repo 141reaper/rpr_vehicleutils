@@ -35,7 +35,8 @@ This FiveM script allows you to recover or delete a vehicle using its license pl
 
 - Make sure you have the necessary permissions to use the `vehicleutils` command.
 - The script assumes that the `ox_lib` and `oxmysql` libraries are correctly installed and configured.
-- 0.00ms - 0.01ms Resmon
+- 0.00ms - 0.01ms Resmon when idle
+- 0.30 ms when Menu open (because of RageUI)
 
 ## Troubleshooting
 
