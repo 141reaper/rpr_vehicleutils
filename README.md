@@ -25,14 +25,14 @@ This FiveM script allows you to recover or delete a vehicle using its license pl
 
 
 - Ensure you are an admin or belong to a group listed in `Config.AdminGroups`.
-- Type `/vehicleutils` in the chat.
+- Type `/vehicleutils` in the chat or F8 console.
 - Select the desired action from the menu.
 - Enter the license plate number, and the action will be completed automatically.
 
 
 ## Notes
 
-- Make sure you have the necessary permissions to use the `deletecar` command.
+- Make sure you have the necessary permissions to use the `vehicleutils` command.
 - The script assumes that the `ox_lib` and `oxmysql` libraries are correctly installed and configured.
 
 ## Troubleshooting
