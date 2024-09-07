@@ -8,7 +8,7 @@ This FiveM script allows you to recover or delete a vehicle using its license pl
 
 - [ox_lib](https://github.com/overextended/ox_lib)
 - [oxmysql](https://github.com/overextended/oxmysql)
-- RageUI (Note: Implemented using an alternative version as the original was not available.)
+- RageUI (Note: Implemented because i removed some things. Original Script: [RageUIV2](https://github.com/Shazuub/RageUIV2/tree/main))
 
 ## Setup
 
