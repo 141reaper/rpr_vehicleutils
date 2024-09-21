@@ -52,3 +52,5 @@ Feel free to contribute by submitting issues or pull requests. For any questions
 ## License
 
 This script is licensed under the a Custom License [LICENSE](LICENSE).
+
+© 141Reaper
