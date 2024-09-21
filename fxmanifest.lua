@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author '141reaper'
-description 'Script to Recover Cars with a Simple Menu!'
+description 'Script to Recover Cars with a Simple Menu! Copyright © 141Reaper'
 version '1.4.0'
 
 server_scripts { 
