@@ -3,6 +3,11 @@
 This FiveM script allows you to recover or delete a vehicle using its license plate. It was initially created as a temporary fix for a bug in **okokGarage** and **AdvancedParking**. The issue arose when an admin used the "dv" command to delete a vehicle, causing it to neither be stored in the garage nor appear in the impound. As a result, it became impossible to park the vehicle in or out.
 
 
+# Changelog
+
+## 2/10/2024
+- Added QBCore Version to version 1.1.0
+
 # Installation
 
 ## Dependencies
