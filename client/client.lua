@@ -6,12 +6,12 @@ local mainMenu = RageUI.CreateMenu("Vehicleutils", "by 141reaper")
 RegisterCommand('vehicleutils', function()
     ESX.TriggerServerCallback('rpr_recovercar:getGroup', function(isAdmin)
         if isAdmin then
-            open = not open -- Toggle den Status der `open`-Variable
+            open = not open
             if open then
                 RageUI.Visible(mainMenu, not RageUI.Visible(mainMenu))
                 Citizen.CreateThread(function()
                     while open do
-                        Citizen.Wait(0) -- Minimale Verzögerung während das Menü offen ist
+                        Citizen.Wait(0)
                         RageUI.IsVisible(mainMenu, function()
                             RageUI.Button("Recover Car", "Recover Car using License Plate", {}, true, {
                                 onSelected = function()
@@ -70,7 +70,7 @@ RegisterCommand('vehicleutils', function()
                                 end
                             })
                         end, function() end, 1)
-                        -- Wartezeit hinzufügen, wenn das Menü nicht aktiv ist
+                                    
                     end
                     while not open do
                         Citizen.Wait(1000)
